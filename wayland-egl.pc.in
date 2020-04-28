@@ -1,0 +1,12 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+datarootdir=@datarootdir@
+pkgdatadir=@datadir@/@PACKAGE@
+libdir=@libdir@
+includedir=@includedir@
+
+Name: Wayland EGL
+Description: Wayland EGL support library
+Version: @PACKAGE_VERSION@
+Cflags: -I${includedir}
+Libs: -L${libdir} -lwayland-egl
